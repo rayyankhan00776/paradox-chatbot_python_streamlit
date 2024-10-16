@@ -1,9 +1,11 @@
 import streamlit as st
 import google.generativeai as genai
 import time
+import os
 
 # Configure the API key
-api_key = "AIzaSyAGYjDFLBmZZi7h_JA5Mbu6m6Qj7C_y-bE"
+
+api_key = os.getenv("API_KEY")
 genai.configure(api_key=api_key)
 
 # Set the generative model
@@ -15,7 +17,7 @@ def getresponse(userinput):
     return response.text
 
 # Streamlit App Layout
-st.title("Amchura Bot with Masala Response")
+st.title("paradox Bot with Masala Response")
 st.subheader("Generates a masala-flavored response to your query")
 
 # Add an image at the top (you can replace the link with your image URL or local image)
