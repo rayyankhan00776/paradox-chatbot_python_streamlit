@@ -2,4 +2,4 @@ streamlit=1.38.0
 google-generativeai=0.8.3
 
 # Now, when you or anyone else wants to run the app, they can install the required packages using the following command in the terminal:
-pip install -r requirements.txt
+# pip install -r requirements.txt
