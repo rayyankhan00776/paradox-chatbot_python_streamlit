@@ -21,7 +21,7 @@ st.title("paradox Bot with Masala Response")
 st.subheader("Generates a masala-flavored response to your query")
 
 # Add an image at the top (you can replace the link with your image URL or local image)
-st.image("E:\python\gen ai first\images.jpg", use_column_width=True)
+st.image("images.jpg", use_column_width=True)
 
 # Input field with placeholder text
 userinput = st.text_input("Bolo bhai / bhen :", placeholder="Ask your question with a sprinkle of masala...")
