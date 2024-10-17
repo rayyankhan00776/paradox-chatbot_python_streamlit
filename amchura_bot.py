@@ -1,11 +1,10 @@
 import streamlit as st
 import google.generativeai as genai
 import time
-import os
 
 # Configure the API key
 
-api_key = os.getenv("API_KEY")
+api_key = "AIzaSyAGYjDFLBmZZi7h_JA5Mbu6m6Qj7C_y-bE"
 genai.configure(api_key=api_key)
 
 # Set the generative model
